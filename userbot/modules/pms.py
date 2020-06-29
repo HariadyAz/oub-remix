@@ -82,8 +82,8 @@ async def permitpm(event):
 
                 if COUNT_PM[event.chat_id] > 2:
                     await event.respond(
-                        "`Goblok, tolol, udah dibilangin minta izin dulu, kalo gak di izinin ya gausah spam anjenk🖕.`\n"
-                        "`lu kena block otomatis dari bot, bye🖕.`"
+                        "`Goblok, tolol banget si, udah dibilangin minta izin dulu, kalo gak di izinin ya gausah spam anjing🖕.`\n"
+                        "`lu kena block otomatis dari bot, bye🖕 LOLOT.`"
                     )
 
                     try:
