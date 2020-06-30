@@ -134,7 +134,7 @@ async def amireallyalive(alive):
     output = (f"`🤖 𝑺𝑻𝑨𝑻𝑼𝑺: 𝑩𝒐𝒕 𝒏𝒚𝒂 𝒊𝒅𝒖𝒑 𝒄𝒖𝒚✅`\n"
              f"`𝑻𝒆𝒍𝒆𝒕𝒉𝒐𝒏 𝒗𝒆𝒓𝒔𝒊𝒐𝒏`: {version.__version__} \n"
              f"`𝑷𝒚𝒕𝒉𝒐𝒏 𝒗𝒆𝒓𝒔𝒊𝒐𝒏 🐍`: {python_version()} \n"
-             f"`𝑩𝒐𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏🤘: Remix {BOT_VER}` \n"
+             f"`𝑩𝒐𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏🤘: 𝑹𝒆𝒎𝒊𝒙 {BOT_VER}` \n"
              f"==================================== \n"
              f"𝑼𝒔𝒆𝒓👨‍🚀: {DEFAULTUSER} \n"
              f"𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒓🏄‍♂️: 𝑯𝒂𝒓𝒊𝒂𝒅𝒚𝑨𝒛 \n"
