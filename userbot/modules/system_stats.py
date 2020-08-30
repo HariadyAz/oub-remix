@@ -221,25 +221,15 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .start command, check if the bot is running.  """
     logo = ALIVE_LOGO
-<<<<<<< HEAD
-    output = (f"`🤖 𝑺𝑻𝑨𝑻𝑼𝑺: 𝑩𝒐𝒕 𝒏𝒚𝒂 𝒊𝒅𝒖𝒑 𝒄𝒖𝒚✅`\n"
-             f"`𝑻𝒆𝒍𝒆𝒕𝒉𝒐𝒏 𝒗𝒆𝒓𝒔𝒊𝒐𝒏`: {version.__version__} \n"
-             f"`𝑷𝒚𝒕𝒉𝒐𝒏 𝒗𝒆𝒓𝒔𝒊𝒐𝒏 🐍`: {python_version()} \n"
-             f"`𝑩𝒐𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏🤘: 𝑹𝒆𝒎𝒊𝒙 v{BOT_VER}` \n"
-             f"==================================== \n"
-             f"𝑼𝒔𝒆𝒓👨‍🚀: {DEFAULTUSER} \n"
-             f"𝑬𝒅𝒊𝒕𝒐𝒓🏄‍♂️: ༺𝑯𝒂𝒓𝒊𝒂𝒅𝒚𝑨𝒛༻ \n"
-=======
     uptime = await get_readable_time((time.time() - StartTime))
-    output = (f"`🤖 STATUS: Remix is running ✅`\n"
-             f"`Telethon version`: {version.__version__} \n"
-             f"`Python version🐍`: {python_version()} \n"
-             f"`Bot Version🤘: Remix {BOT_VER}` \n"
+    output = (f"`🤖 STATUS: ʙᴏᴛ ɪꜱ ᴀʟɪᴠᴇ ✅`\n"
+             f"`ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ`: {version.__version__} \n"
+             f"`ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ🐍`: {python_version()} \n"
+             f"`ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ🤘: ʀᴇᴍɪx {BOT_VER}` \n"
              f"==================================== \n"
-             f"`User 👨‍🚀`: {DEFAULTUSER} \n"
-             f"`Maintainer 🏄‍♂️`: @heyworld \n"
-             f"`Bot Uptime ⏱️`: {uptime} \n"
->>>>>>> eb0f8f00bc2138c28718b1ddcd25e240cf815a12
+             f"`ᴜꜱᴇʀ 👨‍🚀`: {DEFAULTUSER} \n"
+             f"`Eᴇᴅɪᴛᴏʀ 🏄‍♂️`: Ｈ Ａ Ｒ Ｄ Ｌ Ｙ \n"
+             f"`ʙᴏᴛ ᴜᴘᴛɪᴍᴇ ⏱️`: {uptime} \n"
              f"====================================\n")
     if ALIVE_LOGO:
         try:
